@@ -16,17 +16,7 @@ steps:
   - script: |
       tsc --target ES6 --strict true --project tsconfig.json
     displayName: 'typescript compilation to ES6'
-  - task: DownloadSecureFile@1
-    name: envVars
-    displayName: 'download environment variables'
-    inputs:
-      secureFile: '.env.production'
 
-  - script: |
-      sudo chown root:root $(envVars.secureFilePath)
-      sudo chmod a+r $(envVars.secureFilePath)
-      sudo ln -s -t $(System.DefaultWorkingDirectory) $(envVars.secureFilePath)
-    displayName: 'symlink .env files from secure directory'
   - script: |
       npm run build
     displayName: 'create build to deploy'
