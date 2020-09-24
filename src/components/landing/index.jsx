@@ -3,7 +3,7 @@ import NavbarView from '../navbar/index';
 
 const LandingPageView = () => {
     return(
-        <div>
+        <div className="LandingPage">
             <NavbarView />
         </div>
     )

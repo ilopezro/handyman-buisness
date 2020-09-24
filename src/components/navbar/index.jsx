@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.scss';
 
-const LinksToRender = [
+export const LinksToRender = [
     {
         path: '/', 
         name: 'Lopez Handyman'
@@ -31,7 +31,7 @@ const Links = () => {
             {LinksToRender.map(item => (
                 <Link 
                     to={item.path} 
-                    className="navbar__link" 
+                    className="Navbar__link" 
                     key={item.name}
                 >
                     {item.name}
@@ -43,7 +43,7 @@ const Links = () => {
 
 const NavbarView = () => {
     return(
-        <div className="navbar">
+        <div className="Navbar">
             <Links />
         </div>
     )
