@@ -2,7 +2,7 @@ module.exports = {
     collectCoverageFrom: ["src/**/*.{js,jsx}"],
     moduleNameMapper: {
       "\\.(css|sass|scss|erb)$": "<rootDir>/src/__mocks__/fileMock.ts",
-      "\\.svg$": "<rootDir>/src/__mocks__/svgMock.ts",
+      "\\.svg$": "<rootDir>/src/__mocks__/svgMock.js",
     },
     modulePaths: ["src/"],
     reporters: [
@@ -12,7 +12,7 @@ module.exports = {
         { suiteName: "jest", outputDirectory: "<rootDir>/tmp/test-results" },
       ],
     ],
-    setupFilesAfterEnv: ["jest-enzyme", "<rootDir>/src/setupTests.ts"],
+    setupFilesAfterEnv: ["jest-enzyme", "<rootDir>/src/setupTests.js"],
     testEnvironment: "enzyme",
     testPathIgnorePatterns: ["node_modules"],
   };

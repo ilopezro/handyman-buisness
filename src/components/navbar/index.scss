@@ -6,8 +6,8 @@
 }
 
 .Navbar__link {
-  font-family: PT serif;
+  font-family: PT serif; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
   text-decoration: none;
   flex-direction: row;
-  color: #000;
+  color: #000; /* stylelint-disable-line sh-waqar/declaration-use-variable */
 }

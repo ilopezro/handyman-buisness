@@ -15,8 +15,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "test": "jest --watch --passWithNoTests",
+    "test:once": "jest --passWithNoTests",
+    "test:ci": "jest --coverage --ci --color --runInBand --passWithNoTests",
     "lint": "npm-run-all -c lint:*",
     "lint:js": "eslint 'src/**/*.{js,jsx}'",
     "lint:css": "stylelint --allow-empty-input 'src/**/*.{css,scss}'"
