@@ -25,9 +25,9 @@ export const LinksToRender = [
     }
 ]
 
-const Links = () => {
+const NavbarView = () => {
     return (
-        <>
+        <div className="Navbar">
             {LinksToRender.map(item => (
                 <Link 
                     to={item.path} 
@@ -37,14 +37,6 @@ const Links = () => {
                     {item.name}
                 </Link>
             ))}
-        </>
-    )
-}
-
-const NavbarView = () => {
-    return(
-        <div className="Navbar">
-            <Links />
         </div>
     )
 }
