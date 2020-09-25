@@ -1,3 +1,5 @@
+@use "../../stylesheets/typography";
+
 .Navbar {
   width: 100%;
   display: flex;
@@ -6,8 +8,7 @@
 }
 
 .Navbar__link {
-  font-family: PT serif; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  @include typography.navbar-link;
   text-decoration: none;
   flex-direction: row;
-  color: #000; /* stylelint-disable-line sh-waqar/declaration-use-variable */
 }

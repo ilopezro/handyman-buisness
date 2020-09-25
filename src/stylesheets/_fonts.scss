@@ -2,22 +2,22 @@
   font-family: "PT Serif";
   font-style: normal;
   font-weight: 400;
-  src: url("pt-serif-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/pt-serif-v12-latin-regular.eot"); /* IE9 Compat Modes */
   src: local("PT Serif"), local("PTSerif-Regular"),
-    url("pt-serif-v12-latin-regular.eot?#iefix") format("embedded-opentype"), 
-    url("pt-serif-v12-latin-regular.woff2") format("woff2"), 
-    url("pt-serif-v12-latin-regular.woff") format("woff"), 
-    url("pt-serif-v12-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/pt-serif-v12-latin-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pt-serif-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/pt-serif-v12-latin-regular.woff") format("woff"),
+    url("../fonts/pt-serif-v12-latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
 }
 
 @font-face {
-  font-family: "PT Serif";
+  font-family: "PT Serif Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("pt-serif-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/pt-serif-v12-latin-700.eot"); /* IE9 Compat Modes */
   src: local("PT Serif Bold"), local("PTSerif-Bold"),
-    url("pt-serif-v12-latin-700.eot?#iefix") format("embedded-opentype"), 
-    url("pt-serif-v12-latin-700.woff2") format("woff2"), 
-    url("pt-serif-v12-latin-700.woff") format("woff"), 
-    url("pt-serif-v12-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/pt-serif-v12-latin-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/pt-serif-v12-latin-700.woff2") format("woff2"),
+    url("../fonts/pt-serif-v12-latin-700.woff") format("woff"),
+    url("../fonts/pt-serif-v12-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
 }
