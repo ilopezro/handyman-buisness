@@ -1,0 +1,9 @@
+$font-family-base: "PT Serif", "sans-serif";
+$font-family-bold: "PT Serif Bold", "sans-serif";
+
+@mixin navbar-link {
+  font-family: $font-family-base;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--black);
+}
