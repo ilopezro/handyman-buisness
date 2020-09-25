@@ -31,4 +31,4 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Running JS tests
-        run: yarn test:ci
+        run: yarn test:ci --passWithNoTests
