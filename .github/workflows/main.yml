@@ -1,6 +1,10 @@
 name: Lopez Handyman CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ main, feature/**, chore/** ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   static-analysis:
