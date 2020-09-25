@@ -7,8 +7,20 @@
   justify-content: space-between;
 }
 
+.Navbar__container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Navbar__container--home {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
 .Navbar__link {
   @include typography.navbar-link;
   text-decoration: none;
-  flex-direction: row;
 }
