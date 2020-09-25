@@ -4,10 +4,6 @@ import "./index.scss";
 
 export const LinksToRender = [
   {
-    path: "/",
-    name: "Lopez Handyman",
-  },
-  {
     path: "/services",
     name: "Services",
   },
@@ -28,11 +24,18 @@ export const LinksToRender = [
 const NavbarView = () => {
   return (
     <div className="Navbar">
-      {LinksToRender.map((item) => (
-        <Link to={item.path} className="Navbar__link" key={item.name}>
-          {item.name}
+      <div className="Navbar__container--home">
+        <Link to="/" className="Navbar__link--home">
+          Lopez Handyman
         </Link>
-      ))}
+      </div>
+      <div className="Navbar__container">
+        {LinksToRender.map((item) => (
+          <Link to={item.path} className="Navbar__link" key={item.name}>
+            {item.name}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
