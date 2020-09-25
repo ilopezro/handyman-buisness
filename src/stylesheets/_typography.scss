@@ -6,4 +6,13 @@ $font-family-bold: "PT Serif Bold", "sans-serif";
   font-size: 18px;
   line-height: 23px;
   color: var(--black);
+  text-decoration: none;
+}
+
+@mixin navbar-link-bold {
+  font-family: $font-family-bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--black);
+  text-decoration: none;
 }

@@ -25,7 +25,7 @@ const NavbarView = () => {
   return (
     <div className="Navbar">
       <div className="Navbar__container--home">
-        <Link to={"/"} className="Navbar__link Navbar__link--home">
+        <Link to="/" className="Navbar__link--home">
           Lopez Handyman
         </Link>
       </div>
