@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarView from "../navbar/index";
+import NavbarView from "components/navbar/index";
 
 const LandingPageView = () => {
   return (
